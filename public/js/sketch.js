@@ -11,6 +11,9 @@ let canvasHeight = height/2;
 
 let input;
 
+//for client side socket connection
+let socket;
+
 function setup() {
     canvas = createCanvas(canvasWidth,canvasHeight); //built-in function from p5.js
     createElement("br");
@@ -25,6 +28,8 @@ function setup() {
     colorPicker = createColorPicker('#EDEDED');
     colorPicker.position(input.width + 50,canvasHeight + 10);
     canvas.drop(droppedFile);
+
+    socket = io.connect('http://localhost:3000');
 }
 
 function removeCanvas() {

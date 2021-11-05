@@ -1,0 +1,28 @@
+{
+  "name": "taskscheduler",
+  "version": "1.0.0",
+  "description": "This is a small coding assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitkothari-dev/taskscheduler.git"
+  },
+  "keywords": [
+    "canvas",
+    "task",
+    "scheduler"
+  ],
+  "author": "Mohit Kothari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohitkothari-dev/taskscheduler/issues"
+  },
+  "homepage": "https://github.com/mohitkothari-dev/taskscheduler#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  }
+}
